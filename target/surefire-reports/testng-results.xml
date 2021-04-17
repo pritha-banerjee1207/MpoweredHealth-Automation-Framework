@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67719" started-at="2021-04-17T10:02:48 IST" finished-at="2021-04-17T10:03:56 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test3" duration-ms="67719" started-at="2021-04-17T10:02:48 IST" finished-at="2021-04-17T10:03:56 IST">
+      <class name="Runner_Files.Signup_positive_scenarios_runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="setUpClass" is-config="true" duration-ms="1503" started-at="2021-04-17T10:02:48 IST" finished-at="2021-04-17T10:02:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" duration-ms="37858" started-at="2021-04-17T10:02:50 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T10:03:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the browser is lauched and user clicks on the Signup button and navigates to Signup page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" duration-ms="4097" started-at="2021-04-17T10:03:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T10:03:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is navigated to thelogin page on clicking the login link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" duration-ms="3945" started-at="2021-04-17T10:03:32 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T10:03:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the data entered in both Password and Confirm password fields are masked"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" duration-ms="805" started-at="2021-04-17T10:03:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T10:03:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the password should be displayed on an eye click for Password fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" duration-ms="3994" started-at="2021-04-17T10:03:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T10:03:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the Confirm password field by comparing data entered in the Password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" duration-ms="3953" started-at="2021-04-17T10:03:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T10:03:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to click on Sign Up with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="runScenario" duration-ms="7052" started-at="2021-04-17T10:03:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-17T10:03:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user should be navigated to the otp Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Signup with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=90.0.4430.72)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DELL-L4N91MT', ip: '192.168.43.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.72, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Akhila\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22f749a19bcfbbf1cb98058bac769d82]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=90.0.4430.72)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DELL-L4N91MT', ip: '192.168.43.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.72, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Akhila\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22f749a19bcfbbf1cb98058bac769d82
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+at Reusable_Functions.Generic_function.takeScreenShot(Generic_function.java:81)
+at Signup_positive_scenarios.Signup_positive_scenarios.signup_positive_tc_007(Signup_positive_scenarios.java:122)
+at ✽.user enters otp and clicks on verify user is navigated to the login page(file:///C:/Users/Akhila/Downloads/Framework-integrated-main%20(1)/Framework-integrated-main/src/main/java/Signup_positive_scenarios/Signup_positive_scenarios.feature:23)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner_Files.Signup_positive_scenarios_runner@2a17b7b6]" name="tearDownClass" is-config="true" duration-ms="4409" started-at="2021-04-17T10:03:51 IST" finished-at="2021-04-17T10:03:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Signup_positive_scenarios_runner -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
